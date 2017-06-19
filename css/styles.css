@@ -1,5 +1,5 @@
 body{
-	background: url(https://source.unsplash.com/ZX3xxcsl8C4) no-repeat center center;
+	background: url(http://www.ecifm.com/p6/wp-content/uploads/2016/06/website-design-background-1.jpg) no-repeat center center;
 	background-size: cover;
 	font-family: 'Merriweather', sans-serif;
 }
@@ -31,14 +31,20 @@ body{
 }
 
 .main .blog-post{
-	text-align: center;
 	color: white;
+	font-family: 'Lato', sans-serif;
 }
 
 .main .blog-dates{
-	background-color: white;
+	background-color: rgba(0,0,0, 0.4);
 	text-align: center;
 	padding: 30px 0px;
+	margin-top: 20px;
+}
+
+.main .blog-dates a{
+	color: white;
+	text-decoration: underline;
 }
 
 .main h2{
